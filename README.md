@@ -1,1 +1,9 @@
-This is the source code for Ikea rollerblind with my commits. It described here: https://www.instructables.com/id/Motorized-WiFi-IKEA-Roller-Blind
+This is the source code for Ikea rollerblind with my commits.
+Thanks to https://github.com/danjperron/ESP12EMotorShieldRollerBlind for stepper.lua code.
+Building hardware is described here: https://www.instructables.com/id/Motorized-WiFi-IKEA-Roller-Blind
+
+To connect step motor read comments in stepper.lua !!!
+
+Motor is to be placed on the right side of a blind, remove the nut from a spring stopper inside a blind tube.
+To upload code to ESP8266 uncheck "Autodetect firmware", select speed 115200.
+File cfg_tot_steps.lua contains total number of steps, in my case 27000 steps for 120cm blind.
