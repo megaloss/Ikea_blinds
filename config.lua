@@ -1,8 +1,8 @@
 -- file : config.lua
 local module = {}
   
-module.ssid="Yurick"
-module.pwd="superyurick"
+module.ssid="*****"
+module.pwd="*****"
 module.auto=true
 
 -- example for local MQTT
